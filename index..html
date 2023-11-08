@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+
+  <head>
+    <link rel="shortcut icon" href="#" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Alarm Clock</h1>
+    <div class="main-wrapper">
+      <h2>03:25:56 PM</h2>
+      <div class="dasho"></div>
+      <div class="timer">
+        <div class="column">
+          <select name="" id="">
+            <option value="hours" selected hidden>hr</option>
+          </select>
+        </div>
+        <div class="column">
+          <select name="" id="">
+            <option value="minutes" selected hidden>min</option>
+          </select>
+        </div>
+        <div class="column">
+          <select name="" id="">
+            <option value="seconds" selected hidden>sec</option>
+          </select>
+        </div>
+        <div class="column">
+          <select name="" id="">
+            <option value="ampm" selected hidden>AM/PM</option>
+          </select>
+        </div>
+        <button class="set-alarm">Set alarm</button>
+      </div>
+
+      <div class="alarm-list">
+        <h4>Alarm's</h4>
+        <ul>
+          <!-- <li>04:56:12 PM</li> -->
+          <!-- <button class="delete">delete</button> -->
+        </ul>
+      </div>
+    </div>
+    <audio src="music/alarm.mp3" class="sound"></audio>
+    <!-- <script src="index.js"></script> -->
+    <script src="newIndex.js"></script>
+  </body>
+</html>
